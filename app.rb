@@ -18,7 +18,7 @@ class App < Sinatra::Base
     @phrase=params[:phrase]
      def repeat(@phrase, @number)
        print phrase * @number
-     end 
+     end
      repeat(@phrase, @number)
    end 
 
