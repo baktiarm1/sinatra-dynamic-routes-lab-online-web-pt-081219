@@ -20,8 +20,8 @@ class App < Sinatra::Base
        print phrase * @number
      end
      repeat(@phrase, @number)
-   end 
+   end
 
-  end
+  
 
 end
